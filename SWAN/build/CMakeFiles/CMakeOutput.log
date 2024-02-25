@@ -1,0 +1,77 @@
+The system is: Linux - 5.15.0-92-generic - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /public/software/.local/easybuild/software/impi/2021.10.0-intel-compilers-2023.2.1/mpi/2021.10.0/bin/mpif90 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+mpif90 for the Intel(R) MPI Library 2021.10 for Linux*
+Copyright Intel Corporation.
+Driving: gfortran -fallow-argument-mismatch -v CMakeFortranCompilerId.F -II_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran -II_MPI_SUBSTITUTE_INSTALLDIR/include -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=gfortran
+COLLECT_LTO_WRAPPER=/public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --enable-languages=c,c++,fortran --without-cuda-driver --enable-offload-targets=nvptx-none --enable-lto --enable-checking=release --disable-multilib --enable-shared=yes --enable-static=yes --enable-threads=posix --enable-plugins --enable-gold --enable-ld=default --prefix=/public/software/.local/easybuild/software/GCCcore/13.2.0 --with-local-prefix=/public/software/.local/easybuild/software/GCCcore/13.2.0 --enable-bootstrap --with-isl=/public/software/.local/easybuild/build/GCCcore/13.2.0/system-system/gcc-13.2.0/stage2_stuff --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 13.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fallow-argument-mismatch' '-v' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+ /public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/cczOq2ma.f90 -quiet -v -I I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran -I I_MPI_SUBSTITUTE_INSTALLDIR/include -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpdir a- -dumpbase CMakeFortranCompilerId.F -dumpbase-ext .F -mtune=generic -march=x86-64 -version -fallow-argument-mismatch -fintrinsic-modules-path /public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/finclude -fpre-include=/usr/include/finclude/math-vector-fortran.h -o /tmp/ccD9Idm6.s
+GNU Fortran (GCC) version 13.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+f951: Warning: Nonexistent include directory ‘I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran’ [-Wmissing-include-dirs]
+f951: Warning: Nonexistent include directory ‘I_MPI_SUBSTITUTE_INSTALLDIR/include’ [-Wmissing-include-dirs]
+ignoring nonexistent directory "/public/software/.local/easybuild/software/GCCcore/13.2.0/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/include-fixed/x86_64-linux-gnu"
+ignoring nonexistent directory "/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/include-fixed"
+ignoring nonexistent directory "/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran"
+ignoring nonexistent directory "I_MPI_SUBSTITUTE_INSTALLDIR/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/finclude
+ /public/software/.local/easybuild/software/netCDF-All/NVHPC-23.1/include
+ /public/software/.local/easybuild/software/libxml2/2.11.4-GCCcore-13.2.0/include/libxml2
+ /public/software/.local/easybuild/software/libxml2/2.11.4-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/bzip2/1.0.8-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/zstd/1.5.5-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/lz4/1.9.4-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/XZ/5.4.4-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/cURL/8.0.1-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/OpenSSL/1.1/include
+ /public/software/.local/easybuild/software/HDF5/1.14.0-NVHPC-23.1/include
+ /public/software/.local/easybuild/software/Szip/2.1.1-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/zlib/1.2.13-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/cuda/include
+ /public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/comm_libs/nvshmem/include
+ /public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/comm_libs/nccl/include
+ /public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/math_libs/include
+ /public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/comm_libs/mpi/include
+ /public/software/.local/easybuild/software/numactl/2.0.16-GCCcore-13.2.0/include
+ /public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/include
+ /public/software/.local/easybuild/software/GCCcore/13.2.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+COLLECT_GCC_OPTIONS='-fallow-argument-mismatch' '-v' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+ as -v -I I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran -I I_MPI_SUBSTITUTE_INSTALLDIR/include --64 -o /tmp/cc5VyLA9.o /tmp/ccD9Idm6.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+Reading specs from /public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-fallow-argument-mismatch' '-v' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a-'
+COMPILER_PATH=/public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/:/public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/:/public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/:/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/:/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/public/software/.local/easybuild/software/netCDF-All/NVHPC-23.1/lib/../lib64/:/public/software/.local/easybuild/software/libxml2/2.11.4-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/bzip2/1.0.8-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/zstd/1.5.5-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/lz4/1.9.4-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/XZ/5.4.4-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/cURL/8.0.1-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/OpenSSL/1.1/lib/../lib64/:/public/software/.local/easybuild/software/HDF5/1.14.0-NVHPC-23.1/lib/../lib64/:/public/software/.local/easybuild/software/Szip/2.1.1-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/zlib/1.2.13-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/numactl/2.0.16-GCCcore-13.2.0/lib/../lib64/:/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/:/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/public/software/.local/easybuild/software/impi/2021.10.0-intel-compilers-2023.2.1/mpi/2021.10.0/lib/:/public/software/.local/easybuild/software/netCDF-All/NVHPC-23.1/lib/:/public/software/.local/easybuild/software/libxml2/2.11.4-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/bzip2/1.0.8-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/zstd/1.5.5-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/lz4/1.9.4-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/XZ/5.4.4-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/cURL/8.0.1-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/OpenSSL/1.1/lib/:/public/software/.local/easybuild/software/HDF5/1.14.0-NVHPC-23.1/lib/:/public/software/.local/easybuild/software/Szip/2.1.1-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/zlib/1.2.13-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/compilers/lib/:/public/software/.local/easybuild/software/numactl/2.0.16-GCCcore-13.2.0/lib/:/public/software/.local/easybuild/software/impi/2021.10.0-intel-compilers-2023.2.1/mpi/2021.10.0/lib/:./:./:/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fallow-argument-mismatch' '-v' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a.'
+ /public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/collect2 -plugin /public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/public/software/.local/easybuild/software/GCCcore/13.2.0/libexec/gcc/x86_64-pc-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnjzEz6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtbegin.o -L/public/software/.local/easybuild/software/netCDF-All/NVHPC-23.1/lib/../lib64 -L/public/software/.local/easybuild/software/libxml2/2.11.4-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/bzip2/1.0.8-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/zstd/1.5.5-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/lz4/1.9.4-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/XZ/5.4.4-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/cURL/8.0.1-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/OpenSSL/1.1/lib/../lib64 -L/public/software/.local/easybuild/software/HDF5/1.14.0-NVHPC-23.1/lib/../lib64 -L/public/software/.local/easybuild/software/Szip/2.1.1-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/zlib/1.2.13-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/numactl/2.0.16-GCCcore-13.2.0/lib/../lib64 -L/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -L/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/public/software/.local/easybuild/software/impi/2021.10.0-intel-compilers-2023.2.1/mpi/2021.10.0/lib -L/public/software/.local/easybuild/software/netCDF-All/NVHPC-23.1/lib -L/public/software/.local/easybuild/software/libxml2/2.11.4-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/bzip2/1.0.8-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/zstd/1.5.5-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/lz4/1.9.4-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/XZ/5.4.4-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/cURL/8.0.1-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/OpenSSL/1.1/lib -L/public/software/.local/easybuild/software/HDF5/1.14.0-NVHPC-23.1/lib -L/public/software/.local/easybuild/software/Szip/2.1.1-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/zlib/1.2.13-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/NVHPC/23.1/Linux_x86_64/23.1/compilers/lib -L/public/software/.local/easybuild/software/numactl/2.0.16-GCCcore-13.2.0/lib -L/public/software/.local/easybuild/software/impi/2021.10.0-intel-compilers-2023.2.1/mpi/2021.10.0/lib -L. -L. -L/public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/../../.. /tmp/cc5VyLA9.o -lgfortran -lm -lgcc_s -lgcc --as-needed -lquadmath --no-as-needed -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /public/software/.local/easybuild/software/GCCcore/13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fallow-argument-mismatch' '-v' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include/gfortran' '-I' 'I_MPI_SUBSTITUTE_INSTALLDIR/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'a.'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/public/home/libt/COAWST/COAWST/SWAN/build/CMakeFiles/3.16.3/CompilerIdFortran/a.out"
+
